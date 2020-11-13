@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    margin: 8px;
+}
+
+.title{
+    font-size: 24px;
+    color: rgb(230, 1, 1);
+    font-weight: 600;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1.7fr 1.3fr;
+}
+.text1{
+   width: 100%;
+   height: 800px;
+}
+
+.img{
+    margin-top: 5%;
+    width: 90%;
+    display: block;
+}
+.img img{
+    width: 100%;
+}
+#channel{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#img2 img{
+    width: 100%;
+    padding: 10px;
+
+}
+#text2{
+    margin-left: 18px;
+}
+#schedule{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#back{
+    width: 75%;
+    background-color: brown;
+    height: 900px;
+    margin-left: 12.5%;
+    border-radius: 8px;
+}
+iframe{
+    margin-top: 25px;
+}
+p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact-content{
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+    background-color: crimson;
+    width: 60%;
+    height: 500px;
+    margin-left: 20%;
+}
+#contact-content img{
+    width: 25%;
+}
+#about{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+h2{
+  color: rgb(230, 1, 1);  
+}
+#text1{
+    margin: 8px;
+}
+#text1 h2{
+    text-align: left;
+}
+#img3{
+    margin-right: 20%;
+}
+#img3 img{
+    width: 100%;
+}
+
+@media screen and (max-width: 80em){
+.grid{
+    grid-template-columns: 1fr;
+}
+.text1:nth-of-type(1){
+order: 2;
+height: 400px;
+}
+.img:nth-of-type(2){
+order: 1;
+margin-left: 1%;
+width: 98%;
+}
+.img img{
+    border-radius: 8px;
+}
+
+#carouselExampleIndicators{
+    width: 160%;
+    margin-left: -30%;
+}
+#slider{
+    overflow: hidden;
+}
+p{
+    font-size: 18px;
+}
+#back{
+    height: 450px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+iframe{
+    height: 400px;
+    width: 90%;
+}
+#contact-content{
+    height: 300px;
+    width: 90%;
+    margin-left: 5%;
+}
+.grid3{
+    grid-template-columns: 1fr;
+}
+#img3{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+}

@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: darkred;
+}
+header img{
+    padding: 10px;
+    width: 65px;
+    height: 60px;
+    cursor: pointer;
+}
+#menu-drop{
+    margin-top: -4px;
+    height: 70px;
+    background-color: teal;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    line-height: 70px;
+    font-size: 26px;
+    font-weight: 600;
+}
+#usericon{
+    float: right;
+}
+#box{
+    background-color: teal;
+}
+#box:hover{
+    background-color: gold;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 80em){
+
+}
