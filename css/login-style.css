@@ -78,6 +78,9 @@ a{
 a:hover{
     text-decoration: none;
 }
+.swal2-title{
+    background-color: white;
+}
 
 @media screen and (max-width: 65em){
     body{
@@ -87,6 +90,6 @@ a:hover{
         margin-left: auto;
     }
     #form{
-        width: 90%;
+        width: 95%;
     }
 }
